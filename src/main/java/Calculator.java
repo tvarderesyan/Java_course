@@ -16,7 +16,7 @@ public class Calculator {
         num1 = Calc.nextDouble();
         System.out.println("Enter the second number:");
         num2 = Calc.nextDouble();
-        System.out.println("Select the order of operation: ");
+        System.out.println("Select one of this operations (+, -, *, /): ");
         op = Calc.next().charAt(0);
         switch (op) {
             case '+':

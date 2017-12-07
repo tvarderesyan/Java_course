@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-
 /**
- * Created by MY on 29.11.2017.
+ * Created by Varderesyan Tsolak on 29.11.2017.
  */
 public class Calculator {
     public static void main(String[] args) {

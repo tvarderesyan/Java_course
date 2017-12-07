@@ -5,12 +5,12 @@ import java.util.Scanner;
  */
 public class Calculator_Massiv {
     public static void main(String[] args) {
-        Scanner Calc = new Scanner(System.in);
+        Scanner Scanner = new Scanner(System.in);
         final int prog1 = 1;
         final int prog2 = 2;
         int test = 0;
         System.out.println("Choose the program: (1 - Calculator, 2 - Massiv");
-        test = Calc.nextInt();
+        test = Scanner.nextInt();
         if (test == prog1) {
             double num1;
             double num2;
@@ -18,11 +18,11 @@ public class Calculator_Massiv {
             char op = 0;
 
             System.out.println("Enter the first number: ");
-            num1 = Calc.nextDouble();
+            num1 = Scanner.nextDouble();
             System.out.println("Enter the second number:");
-            num2 = Calc.nextDouble();
+            num2 = Scanner.nextDouble();
             System.out.println("Select one of this operations (+, -, *, /): ");
-            op = Calc.next().charAt(0);
+            op = Scanner.next().charAt(0);
             switch (op) {
                 case '+':
                     System.out.println("Result: ");
@@ -44,12 +44,12 @@ public class Calculator_Massiv {
 
         } else if (test == prog2) {
             System.out.println("Enter array length");
-            int size = Calc.nextInt();
+            int size = Scanner.nextInt();
             int array[] = new int[size];
             System.out.println("Insert array elements: ");
 
             for (int i = 0; i < size; i++) {
-                array[i] = Calc.nextInt();
+                array[i] = Scanner.nextInt();
             }
             System.out.print("Your Array: ");
             for (int i = 0; i < size; i++) {

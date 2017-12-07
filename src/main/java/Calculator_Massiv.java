@@ -9,7 +9,7 @@ public class Calculator_Massiv {
         final int prog1 = 1;
         final int prog2 = 2;
         int test = 0;
-        System.out.println("Choose the prog: (1 - Calculator, 2 - Massiv");
+        System.out.println("Choose the program: (1 - Calculator, 2 - Massiv");
         test = Calc.nextInt();
         if (test == prog1) {
             double num1;

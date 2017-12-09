@@ -5,7 +5,7 @@ import Construcror.*;
  */
 public class NewYearGift {
     public static void main(String[] args) {
-        System.out.println("Choose items for your New Year Gift:\n*Just enter the numbers of items you want for gift box*");
+        System.out.println("New Year Gift box composition: ");
         Biscuit biscuit1 = new Biscuit("Choco", 100.2, 15.3, "yellow");
         Candy candy1 = new Candy("Candy", 29.0, 50.3, "whitechocolate");
         Jellybean jelly1 = new Jellybean("Jellybean", 120.30, 300.8, "BearJelly");

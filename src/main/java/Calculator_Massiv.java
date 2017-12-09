@@ -53,7 +53,7 @@ public class Calculator_Massiv {
             }
             System.out.print("Your Array: ");
             for (int i = 0; i < size; i++) {
-                System.out.print(" " + array[i]);
+                System.out.print(array[i] + " " );
             }
             {
                 int Maximum = array[0];

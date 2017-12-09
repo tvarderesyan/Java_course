@@ -16,7 +16,7 @@ public class Masiv {
         }
         System.out.print("Insert array elements: ");
         for (int i = 0; i < size; i++) {
-            System.out.print(" " + array[i]);
+            System.out.print(array[i] + " ");
         }
         {
             int maximum = array[0];
